@@ -71,7 +71,6 @@ class Accountant(
                 )
             }
         }
-        items[0] = card
-        card.printInfo()
+        items.add(card)
     }
 }
